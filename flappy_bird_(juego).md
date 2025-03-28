@@ -1,6 +1,11 @@
 - el juego elegido es: flappy bird 
 - la funcion elegida es detectar cuando el pajaro choca contra los tubos 
-### 1. algoritmo de la funcion del choque contra el tubo en pseint
+### 1. algoritmo de la funcion del choque contra el tubo en pseint 
+con ejemplo de cordenadas
+
+### Para entender mejor las cordenadas es mejor hacer un plano carteciano
+
+![image](https://github.com/user-attachments/assets/b7fe14ec-1289-4973-9b2f-15a800869274)
 
 ```
 Algoritmo Deteccion_Choque
@@ -55,7 +60,6 @@ Fin
 
 
 ![image](https://github.com/user-attachments/assets/59382168-67bd-4925-93fb-5ff45da2776d)
-
 
 
 
