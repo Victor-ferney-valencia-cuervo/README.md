@@ -1,5 +1,5 @@
 - el juego elegido es: flappy bird 
-- la funcion elegida es detectar cuando el pajaro choca contra el suelo o los tubos 
+- la funcion elegida es detectar cuando el pajaro choca contra los tubos 
 ### algoritmo de la funcion del choque contra el tubo en pseint
 
 ```
