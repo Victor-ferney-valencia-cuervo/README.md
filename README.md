@@ -1,7 +1,8 @@
+- el juego elegido es: flappy bird 
+- la funcion elegida es detectar cuando el pajaro choca contra el suelo o los tubos 
+### algoritmo de la funcion del choque contra el tubo en pseint
 
-### algoritmo de la funcion del choque contra el tubo
-
-```plaintext
+```
 Algoritmo Deteccion_Choque
     // Definir las coordenadas del pájaro
     Definir pajaro_x, pajaro_y Como Entero
@@ -53,6 +54,7 @@ Fin
 
 
 
+![image](https://github.com/user-attachments/assets/59382168-67bd-4925-93fb-5ff45da2776d)
 
 
 
