@@ -1,28 +1,60 @@
 
-### 1.Seudocodigo de la funcion
+### algoritmo de la funcion del choque contra el tubo
 
 ```plaintext
-Inicio
-    Definir posición del pájaro (x, y)
-    Definir posición y tamaño de los tubos (x_tubo, y_tubo, ancho_tubo, alto_tubo)
-    Definir límite del suelo (y_suelo)
+Algoritmo Deteccion_Choque
+    // Definir las coordenadas del pájaro
+    Definir pajaro_x, pajaro_y Como Entero
+    Definir ancho_pajaro, alto_pajaro Como Entero
     
-    Si (pájaro toca el suelo) O (pájaro toca un tubo) Entonces
-        Mostrar "Game Over"
-        Detener el juego
+    // Definir las coordenadas y dimensiones del tubo
+    Definir tubo_x, tubo_y_superior, tubo_y_inferior Como Entero
+    Definir ancho_tubo Como Entero
+	
+    // Asignar valores  
+    pajaro_x = 100
+    pajaro_y = 150
+    ancho_pajaro = 30
+    alto_pajaro = 30
+	
+    tubo_x = 120
+    tubo_y_superior = 50
+    tubo_y_inferior = 200
+    ancho_tubo = 40
+	
+    // Verificar si el pájaro está alineado con el tubo en el eje X
+    Si (pajaro_x + ancho_pajaro > tubo_x) Y (pajaro_x < tubo_x + ancho_tubo) Entonces
+        // Verificar si hay colisión en el eje Y
+        Si (pajaro_y < tubo_y_superior) O (pajaro_y + alto_pajaro > tubo_y_inferior) Entonces
+            Escribir "¡Colisión detectada!"
+        Sino
+            Escribir "No hay colisión, el juego continúa."
+        FinSi
+    Sino
+        Escribir "No hay colisión, el juego continúa."
+    FinSi
+FinAlgoritmo
+
+```
+### 2.pseudo codigo
+```
+nicio
+    Definir posición del pájaro (x, y)
+    Definir posición del tubo (x_tubo, y_tubo, ancho, alto)
+
+    Si (pájaro.x + ancho_pájaro > tubo.x Y pájaro.x < tubo.x + ancho_tubo) Entonces
+        Si (pájaro.y < tubo.y_superior O pájaro.y + alto_pájaro > tubo.y_inferior) Entonces
+            Mostrar "¡Colisión detectada!"
+        Fin Si
     Fin Si
 Fin
 ```
-### 2.Algoritmo
-1.inicio
+### 3. diagrama de flujo
 
-2.definir cordenadas y dimenciones del pajaro y los tubos 
 
-3.verificar si hay super pocicion en el eje x (el pajaro esta alineado con el tubo horizontalmente) 
 
-4.verificar si hay colicion en el eje y (el pajaro esta colocado en la parte inferior o superior del tubo)(mostrar "choque")(terminar juego o quitar vida) 
 
-5. si no hay choque (continuar juego normalmente) 
 
-6. fin 
+
+
 
