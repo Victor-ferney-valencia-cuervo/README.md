@@ -18,7 +18,11 @@ Fin
 
 2.definir cordenadas y dimenciones del pajaro y los tubos 
 
-3.verificar si hay super pocicion en el eje x (el pajaro esta alineado con el tubo horizontalmente)
+3.verificar si hay super pocicion en el eje x (el pajaro esta alineado con el tubo horizontalmente) 
 
-4.verificar si hay colicion en el eje y (el pajaro esta colocado en la parte inferior o superior del tubo)(mostrar "choque")(terminar juego o quitar vida)
+4.verificar si hay colicion en el eje y (el pajaro esta colocado en la parte inferior o superior del tubo)(mostrar "choque")(terminar juego o quitar vida) 
+
+5. si no hay choque (continuar juego normalmente) 
+
+6. fin 
 
